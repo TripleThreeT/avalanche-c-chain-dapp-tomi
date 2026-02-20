@@ -39,4 +39,10 @@ See `/screenshots/` folder:
 
 All txs are successful on Fuji testnet.
 
+## What I Learned
+- Gas on Fuji testnet is extremely low (~0.001–0.004 AVAX per tx) compared to mainnet expectations
+- Finality feels near-instant (txs confirm in seconds)
+- Injected providers (Core Wallet → Remix) make deployment and interaction seamless without manual RPC setup
+- Seedless wallets in Core are secure but limit private key export — Remix direct interaction works perfectly
+
 Built for Avalanche internship task – February 2026
